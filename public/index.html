@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <title>Portofolio Malik</title>
+  </head>
+  <body>
+    <header class="bg-slate-100 shadow-md rounded-md w-full top-0 left-0 absolute flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="block text-lg text-dark py-6 font-bold font-serif">Burhanudin<span class="text-primary">Malik</span></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <!-- hamburger menu -->
+            <nav id="menu" class="hidden py-4 bg-white max-w-[250px] w-full absolute right-0 top-full shadow-lg rounded-lg">
+              <ul class="block text-center">
+                <li class="group my-3">
+                  <a class="text-base text-dark py-1 px-4 group-hover:text-primary group-hover:border-b-2 group-hover:border-primary transition duration-300" href="#home">home</a>
+                </li>
+                <li class="group my-3">
+                  <a class="text-base text-dark py-1 px-4 group-hover:text-primary group-hover:border-b-2 group-hover:border-primary transition duration-300" href="#about">about</a>
+                </li>
+                <li class="group my-3">
+                  <a class="text-base text-dark py-1 px-4 group-hover:text-primary group-hover:border-b-2 group-hover:border-primary transition duration-300" href="#portofolio">Portofolio</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- home section -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="px-6 w-full md:w-1/2 self-center">
+            <h1 class="text-base font-semibold text-primary">Hallo Everyone,I'am <span class="font-bold text-xl block text-dark">Burhanudin Malik</span></h1>
+            <h2 class="mb-2 text-sm text-dark">Undergraduate informatic Engineering at Bakrie University</h2>
+            <p class="text-base mb-4 text-dark">I'm interest to be a web developer</p>
+            <button class="bg-primary block rounded-md hover:bg-emerald-600 hover:shadow-md transition duration-200 ease-out">
+              <a href="https://web.whatsapp.com/" class="px-4 text-white font-semibold py-2 block rounded-lg">Contact Me</a>
+            </button>
+          </div>
+          <div class="w-full self-end px-4 md:w-1/2 relative">
+            <div class="mt-10">
+              <img class="max-w-full mx-auto" src="/assets/malik.png" alt="" />
+              <span class="absolute -bottom-5 -z-10 left-1/2 -translate-x-1/2">
+                <svg width="280" height="280" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#10b981"
+                    d="M61.5,-32.5C72.3,-16.9,68.5,10.2,55.8,33.9C43.1,57.6,21.5,77.9,-0.6,78.3C-22.8,78.6,-45.5,59,-57.1,36C-68.8,12.9,-69.2,-13.7,-57.8,-29.6C-46.4,-45.6,-23.2,-51,1.1,-51.6C25.4,-52.2,50.8,-48.1,61.5,-32.5Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end home section -->
+    <!-- about section -->
+    <section id="about" class="mt-10">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center flex justify-center">
+            <h1 class="font-semibold text-base text-primary underline mb-3">About Me</h1>
+          </div>
+          <div class="w-full self-center md:w-1/2 px-4">
+            <p class="text-dark mb-2">I am a person who likes to learn, and is interested in the world of web programming. I have skills in html, css, and javascript that support to become a web developer.</p>
+          </div>
+
+          <div class="w-full px-4 md:w-1/2">
+            <h3 class="text-dark font-semibold text-lg">Find Me !</h3>
+            <p class="text-base text-dark">You can find me at:</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>
